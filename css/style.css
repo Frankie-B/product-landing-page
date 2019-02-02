@@ -179,13 +179,18 @@ input[type="email"] {
     
   }
 /*Footer*/
+#contact {
+  display: flex;
+  position: relative;
+}
 #contact ul {
+  margin: 0;
+  padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 100%;
   color: #ffffff;
   background: #333333;
-  width: 100%;
 }
 #contact li {
   padding: 10px;
@@ -222,22 +227,9 @@ span {
   .text {
     margin: 30px;
   }
- #contact ul {
-   width: 50vw;
-  }
-  #contact li:nth-child(4){
-  color: green;
-  position: absolute;
-  text-decoration: none;
-  }
-  #offers {
-    width: 100%;
-  }
-  
-  footer ul {
-    display: block;
-    text-align: center;
-    width: 100%;
+  span {
+    margin-left: 350px;
+    padding: 0;
   }
 }
  

@@ -206,11 +206,7 @@ input[type="email"] {
 #contact li a {
   color: #fff;
 }
-span {
-    text-align: center;
-    font-size: 1em;
-    margin-left: 30rem
-}
+
 /* When the screen is less than 600 pixels wide, convert nav bar to vertical nav */
 @media screen and (max-width: 600px) {
   #nav-bar a {
@@ -226,10 +222,6 @@ span {
   }
   .text {
     margin: 30px;
-  }
-  span {
-    margin-left: 350px;
-    padding: 0;
-  }
+  }  
 }
  

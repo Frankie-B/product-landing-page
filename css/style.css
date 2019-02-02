@@ -14,7 +14,7 @@ main {
 }
 h1 {
   text-align: center;
-  padding: 5rem 0;
+  padding: 70px 0;
 }
 
 li, a {
@@ -72,12 +72,14 @@ li, a {
 .text-box {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 .text {
   align-content: center;
   margin: 20px;
   padding: 10px;
   line-height: 30px;
+  font-size: 25px;
 }
  i {
   
@@ -104,7 +106,7 @@ p, .fa {
   text-align: center;
   font-family: sans-serif;
   padding: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -141,6 +143,7 @@ p, .fa {
 #html5 {
   display: flex;
   justify-content: center;
+  margin-bottom: 70px;
 }
 /*Email form*/
 #form {
@@ -169,7 +172,7 @@ input[type="email"] {
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  backgorund: #333333;
+  background: #333333;
   width: 100%;
 }
 #contact li {

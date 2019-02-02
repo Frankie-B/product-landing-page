@@ -71,6 +71,8 @@ li, a {
 /*Services*/
 .text {
 text-align: center;
+margin: 10px;
+padding: 10px;
 }
 p i {
 font-size: 35px;
@@ -120,10 +122,6 @@ margin-left: 10;
 
 .card button:hover {
   opacity: 0.7;
-}
-.card h1 {
-  margin: 20px;
-  padding: 0;
 }
 /*Video*/
 #html5 {

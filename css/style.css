@@ -140,10 +140,11 @@ p, .fa {
   opacity: 0.7;
 }
 /*Video*/
-#html5 {
+#video {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
+  margin: 0 auto;  
 }
 /*Email form*/
 #form {
@@ -220,6 +221,10 @@ span {
   }
   #offers {
     width: 100%;
+  }
+  #video {
+    max-width: 100%;
+    height: auto;
   }
   footer ul {
     display: block;
